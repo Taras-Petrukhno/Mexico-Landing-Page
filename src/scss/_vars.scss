@@ -1,0 +1,23 @@
+@use '_functions' as *;
+// Breakpoints
+
+
+$breakpoints-max: (// for desktop first
+    mobile: 1024.98px
+    
+);
+// Colors
+
+$c-main-gradient: linear-gradient(to right, #63D737, #058048);
+$c-background: #293B2B;
+$c-gray: #D9D9D9;
+
+// Sizes
+
+
+$container: rem(1210px); //add 30px to container
+$container-padding: rem(15px);
+$container-small: rem(320px); //add 30px to container
+$container-small-padding: 0px; //add 30px to container
+
+

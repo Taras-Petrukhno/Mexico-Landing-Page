@@ -1,0 +1,16 @@
+@use '_vars' as *;
+
+@mixin max($size) {
+    @if map-has-key($breakpoints-max, $size) {
+      @media (max-width: #{map-get($breakpoints-max, $size)}) {
+        @content;
+      }
+    }
+  
+    @else {
+      @media (max-width: #{$size}px) {
+        @content;
+      }
+    }
+  }
+  

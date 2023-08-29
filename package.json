@@ -1,0 +1,29 @@
+{
+  "name": "mexico-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "css-loader": "^6.8.1",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "swiper": "^10.2.0"
+  }
+}
